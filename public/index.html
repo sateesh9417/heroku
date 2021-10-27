@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You-Tube-Downloader</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section id="youtube-section">
+        <article>
+            <div class="base">
+                <h1>YouTube Video Downloader</h1>
+                <form action="" method="GET">
+                    <div class="input-Field">
+                        <input type="url" name="url" placeholder="Paste your video link..." id="videoUrl" required>
+                        <button id="videoBtn">download</button>
+                        <p><a href="https://www.youtube.com/">GoTo YouTube and Pick your Favorite Video Link</a></p>
+                    </div>
+                </form>
+            </div>
+            <footer>
+                <div class="data" id="position">
+                    <div class="thumbnail" id="dataAlign">
+                        <img src="" id="img_thumbnail" alt="image" width="100%"
+                        height="200px">
+                    </div>
+                    <div id="dataAlign" id="para">
+                        <div class="description">
+                            <h3 id="video_h2"></h3>
+                            <p id="video_description"></p>
+                        </div>
+                        <div class="controls">
+                            <button id="download_btn">Click on Download</button>
+                            <select id="download_options"></select>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </article>
+    </section>
+
+    <script src="./index.js"></script>
+</body>
+</html>
